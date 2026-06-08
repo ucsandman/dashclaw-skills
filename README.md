@@ -38,6 +38,7 @@ npx skills add ucsandman/dashclaw-skills -g -a claude-code -a cursor
 | **compliance-drift-evals** | Compliance exports, drift detection, evaluations, scoring, and learning analytics. |
 | **troubleshoot** | Debug DashClaw errors, signal issues, and misconfigurations. |
 | **dashclaw-platform-intelligence** | Platform expert for integration, troubleshooting, and governance. Prefers live queries against a running instance. |
+| **build-dashclaw** | Contribute to the DashClaw codebase — architecture, scaffolding, tests, and CI. For OSS contributors. |
 
 ## What is DashClaw?
 
