@@ -179,9 +179,6 @@ Client request hits middleware.js
 | `/webhooks` | Outbound webhook configuration and delivery history |
 | `/identities` | Agent identity binding with approval confirmation and permission levels |
 | `/api-keys` | API key management |
-| `/spend` | FinOps Spend overview (Fleet lens — agent LLM cost + x402 capability spend) |
-| `/spend/x402` | x402 purchases — governed capability spend records (provider registry + purchase ledger) |
-| `/spend/code` | Your Claude Code spend (advisory) |
 
 ## Dashboard Navigation
 

@@ -483,13 +483,6 @@ neither exists. When you cannot run the queries above, fall back **in this order
 - `POST` `/api/workflows/templates/[templateId]/runs/[runActionId]/cancel`
 - `POST` `/api/workflows/templates/[templateId]/runs/[runActionId]/resume`
 
-### `x402`
-
-- `GET, POST` `/api/x402/providers`
-- `GET, PATCH` `/api/x402/providers/[id]`
-- `GET, POST` `/api/x402/providers/[id]/endpoints`
-- `GET, POST` `/api/x402/purchases`
-
 ## Required Environment Variables
 
 These must be set — DashClaw will fail to start without them.
