@@ -2,7 +2,7 @@
 
 Reusable [Agent Skills](https://skills.sh) for working with **[DashClaw](https://dashclaw.io)** — the governance runtime for AI agents (policy enforcement, decision recording, human approvals, and risk signals).
 
-These skills teach any skill-aware agent (Claude Code, Cursor, Codex, Copilot, Gemini, OpenClaw, and others) how to set up DashClaw, instrument an agent with the governance loop, author policies, run approvals, and troubleshoot.
+These skills teach any skill-aware agent (Claude Code, Cursor, Codex, Copilot, Gemini, OpenClaw, Muse, and others) how to set up DashClaw, instrument an agent with the governance loop, author policies, run approvals, and troubleshoot.
 
 ## Install
 
@@ -35,6 +35,7 @@ npx skills add ucsandman/dashclaw-skills -g -a claude-code -a cursor
 | **create-policies** | Create and test guard policies for agent governance. |
 | **manage-approvals** | Human-in-the-loop approval workflows for governed actions. |
 | **dashclaw-governance** | Runtime governance behavior: when to call `guard`, how to interpret `allow`/`warn`/`block`/`require_approval`, recording actions, waiting for approvals, session lifecycle. Use with `@dashclaw/mcp-server`. |
+| **muse-governance** | Governance behavior for Meta's Muse agents: the cooperative guard/record/wait/act/outcome loop over REST, plan-first execution with preflight approval and attestation, and unattended runs. |
 | **compliance-drift-evals** | Compliance exports, drift detection, evaluations, scoring, and learning analytics. |
 | **troubleshoot** | Debug DashClaw errors, signal issues, and misconfigurations. |
 | **dashclaw-platform-intelligence** | Platform expert for integration, troubleshooting, and governance. Prefers live queries against a running instance. |
